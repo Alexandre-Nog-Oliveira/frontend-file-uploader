@@ -1,10 +1,16 @@
 import GlobalStyle from '../src/components/styles/global'
+import { Container, Content } from './styles';
 
 
 function App() {
   return (
     <div className="App">
-     <GlobalStyle/>
+
+      <Container>
+        <Content>Teste</Content>
+        <GlobalStyle/>
+      </Container>
+     
     </div>
   );
 }
